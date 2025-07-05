@@ -1,12 +1,12 @@
 import React from 'react'
 
-function User( props) {
+function User({name,email,ph}) {
   return (
    <>
 
-   <h1>{props.name}</h1>
-   <p>{ props.ph}</p>
-   <p>{props.email}</p>
+   <h1>{name}</h1>
+   <p>{ph}</p>
+   <p>{email}</p>
    </>
   )
 }
