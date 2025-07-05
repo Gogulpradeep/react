@@ -11,7 +11,7 @@ function part() {
     };
 
   return (
-<User  name= {detials.name }/>
+<User  name= {detials.name }  ph={detials.ph}   email={detials.email}/>
   )
 }
 
