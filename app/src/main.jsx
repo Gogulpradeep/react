@@ -5,6 +5,7 @@ import Details from './Details.jsx'
 import Props from './Props.jsx'
 import Money from '../Money.jsx'
 import Ref from './Ref.jsx'
+import Uref from './uref.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
    <Props/>
    <Money/>
    <Ref/>
+   <Uref/>
 
 
    
