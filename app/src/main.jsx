@@ -6,14 +6,14 @@ import Props from './Props.jsx'
 import Money from '../Money.jsx'
 import Ref from './Ref.jsx'
 import Uref from './uref.jsx'
+import App from './App.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
   
   
-   <Ref/>
-
+ < App />
 
 
    
