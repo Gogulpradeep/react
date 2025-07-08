@@ -11,11 +11,9 @@ import Uref from './uref.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
   
-   <Details/>
-   <Props/>
-   <Money/>
+  
    <Ref/>
-   <Uref/>
+
 
 
    

@@ -30,7 +30,7 @@ function Money() {
 
   const handleAmountChange = (e) => {
     const value = parseFloat(e.target.value);
-    setAmount(isNaN(value) ? 1 : value);
+    setAmount( value);
   };
 
   const handleFromCurrencyChange = (e) => {
