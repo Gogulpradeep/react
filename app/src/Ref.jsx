@@ -7,8 +7,7 @@ function Ref() {
 
     useEffect(()=>{
         prevalue.current=count;
-
-    });
+     });
 
   return (
     <div>
